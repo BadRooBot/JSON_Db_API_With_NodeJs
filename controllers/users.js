@@ -26,7 +26,7 @@ export const getUsers=async (req,res)=>{//get all Data in file users //users ج�
 };
 
 
-export const createUser=(req,res)=>{//this get all user data from req body //انشاء مستخدم عن طريق الطلب كل المعلومات عن طريق جسم الطلب
+export const createUser=(req,res)=>{//this create  user data from req body //انشاء مستخدم عن طريق الطلب كل المعلومات عن طريق جسم الطلب
   
 //example http://localhost:5000/users/ ///مثال
 
@@ -90,7 +90,7 @@ export  const getUsersById=async (req,res)=>{//get one user by Id//جلب بيا
     res.send(fountUser);
    */
 };
-
+/*
 export const deletUset=(req,res)=>{
 
     const {id}=req.params;
@@ -101,7 +101,7 @@ export const deletUset=(req,res)=>{
 
    
 };
-
+*/
 
 export const read =async(req,res)=>{//to login user 
    
